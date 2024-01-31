@@ -4,8 +4,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+    background-image: repeating-linear-gradient(135deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(45deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, hsl(171,0%,98%),hsl(171,0%,98%));
 .contenedor-principal {
     position: relative;
     width: 950px;
@@ -123,6 +122,7 @@ background-image: linear-gradient(158deg, rgba(84, 84, 84, 0.03) 0%, rgba(84, 84
   }
   
 
+}
 }
 
   
