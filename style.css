@@ -1,3 +1,10 @@
+body {
+  background-image: repeating-linear-gradient(284deg, transparent 0px, transparent 1px,rgb(212,212,212) 1px, rgb(212,212,212) 3px),repeating-linear-gradient(14deg, transparent 0px, transparent 1px,rgb(212,212,212) 1px, rgb(212,212,212) 3px),linear-gradient(90deg, rgb(124,125,171),rgb(124,125,171));
+}
+
+
+
+
 .container {
   max-width: 900px;
   margin: 0 auto;
