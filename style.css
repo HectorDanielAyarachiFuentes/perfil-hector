@@ -23,6 +23,25 @@ body, html {
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 10px;
+  border: 2px solid #000;
+  animation: colorChange 8s infinite;
+}
+@keyframes colorChange {
+  0% {
+    border-color: #000;
+  }
+  25% {
+    border-color: #007bff; /* Azul */
+  }
+  50% {
+    border-color: #28a745; /* Verde */
+  }
+  75% {
+    border-color: #dc3545; /* Rojo */
+  }
+  100% {
+    border-color: #000;
+  }
 }
 
 .contenedor-rectangular img {
@@ -110,8 +129,30 @@ background-image: linear-gradient(158deg, rgba(84, 84, 84, 0.03) 0%, rgba(84, 84
   top: 200px;
   height: 150px;
   width: 300px;
+  border: 2px solid #000;
+  animation: colorChange 8s infinite;
 
 }
+
+@keyframes colorChange {
+  0% {
+    border-color: #000;
+  }
+  25% {
+    border-color: #007bff; /* Azul */
+  }
+  50% {
+    border-color: #28a745; /* Verde */
+  }
+  75% {
+    border-color: #dc3545; /* Rojo */
+  }
+  100% {
+    border-color: #000;
+  }
+}
+
+
 
 /* Ajustes para el nombre */
 .name {
