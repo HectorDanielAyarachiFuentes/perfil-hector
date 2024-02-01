@@ -211,6 +211,7 @@ body {
 
 
 
+/*info cv inicio */
 
 
 .container {
@@ -263,3 +264,44 @@ a:hover {
 }
 
 }
+
+/*info cv fin */
+
+
+
+
+/*footer inicio */
+
+footer {
+  background-color: #07ad1215;
+  color: #cd1818;
+  padding: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  max-width: 100px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  height: auto;
+}
+.footer-info {
+  text-align: right;
+}
+
+.footer-info h3 {
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+/*footer fin */
