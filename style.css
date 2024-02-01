@@ -272,36 +272,35 @@ a:hover {
 
 /*footer inicio */
 
-footer {
-  background-color: #07ad1215;
-  color: #cd1818;
-  padding: 20px 0;
-}
+
+
+/*footer fin */
 
 .container {
-  width: 80%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer-logo img {
-  max-width: 100px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
-  height: auto;
+  max-width: 100px;
+  height: 100px;
 }
+
+.footer-logo {
+  flex: 1;
+  margin: 10px;
+}
+
 .footer-info {
-  text-align: right;
+  flex: 2;
 }
 
-.footer-info h3 {
-  margin-bottom: 10px;
+.map-container {
+  margin-top: 20px; /* Add some space between logo/info and map */
 }
-
-.footer-info p {
-  margin: 5px 0;
-}
-/*footer fin */
