@@ -1,9 +1,6 @@
 body {
   margin: 0;
-  background-image: repeating-linear-gradient(284deg, transparent 0px, transparent 1px,rgb(212,212,212) 1px, rgb(212,212,212) 3px),repeating-linear-gradient(14deg, transparent 0px, transparent 1px,rgb(212,212,212) 1px, rgb(212,212,212) 3px),linear-gradient(90deg, rgb(124,125,171),rgb(124,125,171));
-}
-
-/* header inicio */
+  background-image: repeating-linear-gradient(0deg, rgba(0,0,0, 0.08) 0px, rgba(0,0,0, 0.08) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(90deg, rgba(0,0,0, 0.08) 0px, rgba(0,0,0, 0.08) 1px,transparent 1px, transparent 16px),linear-gradient(90deg, rgb(241,241,241),rgb(241,241,241));/* header inicio */
 
 /* Ajustes para el contenedor principal */
 .contenedor-principal {
