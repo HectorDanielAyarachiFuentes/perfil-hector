@@ -16,29 +16,36 @@
         });
 
 
+        function downloadPDF() {
+          // Retraso para cargar contenido dinámico
+          setTimeout(() => {
+            const element = window.print(); // Captura toda la página
+            html2pdf(element, {
+              margin: 10,
+              filename: 'mi_curriculum.pdf',
+              image: { type: 'jpeg', quality: 0.98 },
+              html2canvas: { scale: 2 },
+              jsPDF: { unit: 'mm', format: 'a3', orientation: 'portrait' }
+            });
+          }, 1000);
+        }
+        
 
-     // Para descargar en formato PDF
-    function downloadPDF() {
-      // Load print-optimized CSS
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = 'print-style.css'; // Asegúrate de que print-style.css esté presente
-      link.media = 'all';
 
-      // Clone the body and apply the print stylesheet
-      var body = document.body.cloneNode(true);
-      body.appendChild(link);
-      
-      var opt = {
-          margin:       [15, 15, 15, 15],
-          filename:     'CV-Hector Daniel-Ayarachi Fuentes.pdf',
-          image:        { type: 'jpeg', quality: 0.98 },
-          html2canvas:  { scale: 2 },
-          jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
-      };
+        // ==UserScript==
+// @name   Descarga automatica PDF
+// @version  0.1
+// @description   Descarga automaticamente la página actual como PDF
+// @author   Bard
+// @match   https://www.ejemplo.com/*
+// @grant   none
+// ==/UserScript==
 
-      html2pdf().from(body).set(opt).save();
-      
-      return false; // Prevenir el comportamiento predeterminado del enlace
+(function() {
+  function downloadPDF() {
+    // ... código de la función downloadPDF() ...
   }
+
+  // Ejecutar la descarga al cargar la página
+  window.addEventListener('load', downloadPDF);
+})();
