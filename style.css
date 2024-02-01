@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background-image: repeating-linear-gradient(0deg, rgba(0,0,0, 0.08) 0px, rgba(0,0,0, 0.08) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(90deg, rgba(0,0,0, 0.08) 0px, rgba(0,0,0, 0.08) 1px,transparent 1px, transparent 16px),linear-gradient(90deg, rgb(241,241,241),rgb(241,241,241));/* header inicio */
-
 }
   /* header inicio*/
   .contenedor-principal {
@@ -101,9 +100,7 @@ body {
   
   /* header final*/
   
-
 /* contactos inicio */
-
     /* Contact items inicio */
     .contact-container {
       display: flex;
@@ -117,19 +114,16 @@ body {
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-
     .contact-header {
       display: flex;
       align-items: center;
       margin-bottom: 10px;
     }
-
     .contact-title {
       font-size: 16px;
       color: #3a5795;
       margin-left: 5px;
     }
-
     .contact-item {
       width: 50px;
       height: 50px;
@@ -137,14 +131,12 @@ body {
       border-radius: 50%;
       position: relative;
     }
-
     .contact-item img {
       border-radius: 50%;
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-
     .active-indicator {
       content: "";
       position: absolute;
@@ -158,33 +150,27 @@ body {
       z-index: 1;
     }
     /* Contact items fin */
-
-
     /* Chat bar inicio */
     #chat-bar {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-
     #chat-label {
       color: #3a5795;
       font-size: 16px;
       text-align: center;
       margin: 10px 0;
     }
-
     #chat-label i {
       font-size: 18px;
       margin-right: 4px;
       vertical-align: middle;
     }
-
     #chat-label span {
       position: relative;
       top: 2px;
     }
-
     #chat-settings i {
       color: #3a5795;
       padding: 13px;
@@ -193,7 +179,6 @@ body {
       cursor: pointer;
     }
     /* Chat bar fin */
-
 /* Efecto Hoover */
 .contact-item a img {
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -206,15 +191,7 @@ body {
   /* Efecto Hoover fin */
   
 /* contactos fin */
-
-
-
-
-
-
 /*info cv inicio */
-
-
 .container {
   max-width: 800px;
   margin: 40px auto;
@@ -222,27 +199,23 @@ body {
   background-color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
 h2 {
   color: #0056b3;
   margin-bottom: 0.75em;
   border-bottom: 2px solid #0056b3;
   padding-bottom: 0.3em;
 }
-
 section {
   margin-bottom: 2em;
   padding: 20px;
   background-color: #f9f9f9;
   border-left: 4px solid #0056b3;
 }
-
 .education-entry, .experience-entry, .skills li {
   margin-bottom: 10px;
   padding-left: 15px;
   position: relative;
 }
-
 .education-entry:before, .experience-entry:before, .skills li:before {
   content: '';
   position: absolute;
@@ -253,55 +226,37 @@ section {
   border-radius: 50%;
   background: #0056b3;
 }
-
 /* Estilos para los enlaces */
 a {
   color: #0056b3;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
-}
-
 /*info cv fin */
-
-
-
-
 /*footer inicio */
-
-
-
 /*footer fin */
-
 .container {
   display: flex;
   flex-direction: column;
 }
-
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
-
 .footer-logo img {
   max-width: 100px;
   height: 100px;
 }
-
 .footer-logo {
   flex: 1;
   margin: 10px;
 }
-
 .footer-info {
   flex: 2;
 }
-
 .map-container {
   margin-top: 20px; /* Add some space between logo/info and map */
 }
