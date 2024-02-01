@@ -1,3 +1,6 @@
+                  // funcion para que facebook se abra tanto en celulares como escritorio-inicio
+
+        
         document.getElementById('facebookLink').addEventListener('click', function(event) {
           // Evitar el comportamiento predeterminado del enlace
           event.preventDefault();
@@ -14,7 +17,9 @@
           // Redirigir a la URL final
           window.open(finalURL, '_blank');
         });
+                  // funcion para que facebook se abra tanto en celulares como escritorio-fin
 
+                  // funcion para que se descargue todo el contenido del html-incio
 
         function downloadPDF() {
           // Retraso para cargar contenido dinámico
@@ -30,22 +35,6 @@
           }, 1000);
         }
         
+                  // funcion para que se descargue todo el contenido del html-fin
 
 
-        // ==UserScript==
-// @name   Descarga automatica PDF
-// @version  0.1
-// @description   Descarga automaticamente la página actual como PDF
-// @author   Bard
-// @match   https://www.ejemplo.com/*
-// @grant   none
-// ==/UserScript==
-
-(function() {
-  function downloadPDF() {
-    // ... código de la función downloadPDF() ...
-  }
-
-  // Ejecutar la descarga al cargar la página
-  window.addEventListener('load', downloadPDF);
-})();
