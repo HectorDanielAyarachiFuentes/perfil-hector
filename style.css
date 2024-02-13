@@ -12,8 +12,8 @@ body {
 }
 
 /* Ajustes para el contenedor rectangular */
-.contenedor-rectangular,
-.ellipse1 {
+.portada,
+.perfil {
   width: 100%;
   height: 320px;
   border: 2px solid #000;
@@ -24,7 +24,7 @@ body {
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 13px auto;
-  /* Agrega el margen entre rectangle1 y rectangle2 */
+  /* Agrega el margen entre rectangle1 y nombre-portada */
   border: 2px solid #000;
   animation: colorChange 8s infinite;
 }
@@ -51,7 +51,7 @@ body {
   }
 }
 
-.contenedor-rectangular img {
+.portada img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -63,7 +63,7 @@ body {
   /* Ajustado para bajar la imagen aún más */
 }
 
-.ellipse1 img {
+.perfil img {
   width: 100%;
   height: auto;
   position: absolute;
@@ -75,7 +75,7 @@ body {
 }
 
 
-.rectangle2 {
+.nombre-portada {
   height: 150px;
   width: 100%;
   border: 2px solid #000;
@@ -84,7 +84,7 @@ body {
 }
 
 /* Ajustes para el nombre dentro del rectángulo 2 */
-.rectangle2 .name {
+.nombre-portada .name {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -98,7 +98,7 @@ body {
 }
 
 /* Ajustes para la elipse 1 */
-.ellipse1 {
+.perfil {
   width: 176px;
   height: 165px;
   position: absolute;
@@ -110,10 +110,10 @@ body {
   overflow: hidden;
   z-index: 1;
   margin-top: 13px;
-  /* Agrega el margen entre ellipse1 y rectangle2 */
+  /* Agrega el margen entre perfil y nombre-portada */
 }
 
-.ellipse1 img {
+.perfil img {
   width: 100%;
   height: 100%;
   object-fit: cover;
