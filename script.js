@@ -33,3 +33,20 @@ function downloadPDF() {
 }
 
 // funcion para que se descargue todo el contenido del html-fin
+
+
+// funcion para ocultar barra de contactos inicio
+
+    function toggleContacts() {
+      var container = document.querySelector('.contact-container');
+      // Alternar entre minimizar y expandir
+      if (container.style.maxHeight && container.style.maxHeight !== "20px") {
+        container.style.maxHeight = "20px";
+      } else {
+        // Establecer un maxHeight suficientemente grande; ajustar según necesidad
+        container.style.maxHeight = "500px"; // Ajusta este valor según el contenido de tu barra de contactos
+      }
+    }
+// funcion para ocultar barra de contactos fin
+//<div class="contact-header" onclick="toggleContacts()">// ese html//
+
