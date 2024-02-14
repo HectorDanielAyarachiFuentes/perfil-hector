@@ -76,13 +76,19 @@ body {
 
 
 .nombre-portada {
-  height: 150px;
   width: 100%;
   border: 2px solid #000;
   animation: colorChange 8s infinite;
   position: relative;
+  height:178px;
+
 }
 
+
+.titulo {
+  font-weight: bold;
+  color: #e2e3e2e5; /* Cambia el color según tus preferencias, aquí se utiliza rojo (#ff0000) como ejemplo */
+}
 /* Ajustes para el nombre dentro del rectángulo 2 */
 .nombre-portada .name {
   position: absolute;
@@ -323,5 +329,4 @@ a:hover {
   margin-top: 20px;
   /* Add some space between logo/info and map */
 }
-
 
