@@ -360,16 +360,11 @@ a:hover {
 
 /* ocultar y subir barra contactos inicio */
 .contact-container {
-  transition: all 0.5s ease;
+  transition: all 1.5s ease;
   overflow: hidden;
 }
 .contact-header {
   cursor: pointer; /* Hace que el cursor sea un puntero para indicar que es clickeable */
 }
 
- /* Agrega estilos según tus necesidades */
- .contact-container {
-  transition: height 0.5s ease-in-out;
-  overflow: hidden;
-}
 /* ocultar y subir barra contactos fin */
