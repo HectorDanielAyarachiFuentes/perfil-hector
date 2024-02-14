@@ -266,26 +266,53 @@ section {
   border-left: 4px solid #0056b3;
 }
 
-.education-entry,
-.experience-entry,
-.skills li {
+/* Estilo común para listas en secciones de habilidades, datos personales y educación */
+.skills li,
+.datos-personales li,
+.education li {
   margin-bottom: 10px;
-  padding-left: 15px;
+  padding-left: 25px; /* Aumenté el espacio a la izquierda para hacer más espacio para el círculo */
   position: relative;
 }
 
-.education-entry:before,
-.experience-entry:before,
-.skills li:before {
+/* Estilo para el círculo antes de cada elemento de la lista */
+.skills li:before,
+.datos-personales li:before,
+.education li:before {
   content: '';
   position: absolute;
   left: 0;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background: #0056b3;
 }
+
+/* Otros estilos específicos según sea necesario */
+
+
+
+/* Estilo para quitar puntos y ajustar márgenes en listas de habilidades, datos personales y educación */
+.skills ul,
+.datos-personales ul,
+.education ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li,
+.datos-personales li,
+.education li {
+    margin-bottom: 8px; /* Puedes ajustar el espacio entre los elementos de la lista según tus preferencias */
+}
+
+/* Otros estilos específicos según sea necesario */
+
+
+
 
 /* Estilos para los enlaces */
 a {
@@ -329,4 +356,5 @@ a:hover {
   margin-top: 20px;
   /* Add some space between logo/info and map */
 }
+
 
