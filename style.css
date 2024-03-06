@@ -368,3 +368,29 @@ a:hover {
 }
 
 /* ocultar y subir barra contactos fin */
+
+/* ANIMACION DE MOUSE Y PUNTEROS */
+
+body{
+  animation: animate 0.6s infinite;
+}
+@keyframes animate{
+ 0%{
+  cursor: url("animado/frame_0_delay-0.01s.gif") , auto;
+ }
+ 20%{
+  cursor: url("animado/frame_1_delay-0.01s.gif") , auto;
+ }
+ 40%{
+  cursor: url("animado/frame_2_delay-0.01s.gif") , auto;
+ }
+ 60%{
+  cursor: url("animado/frame_3_delay-0.01s.gif") , auto;
+ }
+ 80%{
+  cursor: url("animado/frame_4_delay-0.01s.gif") , auto;
+ }
+ 100%{
+  cursor: url("animado/frame_5_delay-0.01s.gif") , auto;
+ }
+}
